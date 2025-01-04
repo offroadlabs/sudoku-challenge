@@ -1,0 +1,56 @@
+# IDEs et éditeurs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.vs/
+*.swp
+*.swo
+*~
+
+# C++ / Qt
+build/
+*.o
+*.obj
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+*.dll
+*.exe
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# Symfony
+/symfony/var/
+/symfony/vendor/
+/symfony/.env.local
+/symfony/.env.local.php
+/symfony/.env.*.local
+/symfony/config/secrets/prod/prod.decrypt.private.php
+/symfony/public/bundles/
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# Next.js
+/nextjs/.next/
+/nextjs/out/
+/nextjs/node_modules/
+/nextjs/.env*.local
+/nextjs/npm-debug.log*
+/nextjs/yarn-debug.log*
+/nextjs/yarn-error.log*
+/nextjs/.pnpm-debug.log*
+/nextjs/.vercel
+/nextjs/*.tsbuildinfo
+/nextjs/next-env.d.ts
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db 
