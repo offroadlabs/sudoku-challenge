@@ -10,6 +10,7 @@
 
 # C++ / Qt
 build/
+build-release/
 *.o
 *.obj
 moc_*.cpp
@@ -26,6 +27,7 @@ CMakeFiles/
 *.pdb
 *.ilk
 *.exp
+dist/
 
 # Symfony
 /symfony/var/

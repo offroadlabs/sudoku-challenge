@@ -1,0 +1,9 @@
+sudoku-qt/
+├── src/
+│   ├── main.cpp
+│   ├── mainwindow.h
+│   ├── mainwindow.cpp
+│   └── CMakeLists.txt
+├── CMakeLists.txt
+├── build.sh
+└── .gitignore 
